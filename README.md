@@ -15,7 +15,7 @@ public interface TestCotroller {
 
 `TestService.java`
 ```
-@Service("test")
+@Service
 public class TestService {
 
 	public String hello() {
