@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.com.kernol</groupId>
+    <groupId>com.github.kernol-info</groupId>
     <artifactId>advancedcontroller-spring-boot-starter</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
     <name>advanced-controller</name>
     <description>@AdvancedController是一个增强型的RestController注解，可以使用接口来定义Controller类，自动匹配Service类并调用Service中的方法。
