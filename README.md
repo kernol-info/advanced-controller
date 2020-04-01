@@ -9,7 +9,7 @@
 public interface TestCotroller {
 
 	@RequestMapping("hello")
-	String hello();
+	String callHello();
 }
 ```
 
@@ -18,7 +18,7 @@ public interface TestCotroller {
 @Service
 public class TestService {
 
-	public String hello() {
+	public String callHello() {
 		return "hello world!";
 	}
 }
